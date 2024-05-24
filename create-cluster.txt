@@ -1,0 +1,3 @@
+aws configure
+
+eksctl create cluster --name demo-ekscluster --region us-east-1 --nodegroup-name demo-ekscluster-wrk-node --node-type t3.micro --nodes 2 --managed=false
